@@ -1,0 +1,17 @@
+1 - Generar una clave SSH
+      -> ssh-keygen -t rsa -b 4096 -C "tu_email@example.com"
+     Esto generara una clave SSH de 4096 bits con tu correo electronico como comentario.
+
+2 - Copiar la clave publica SSH
+     La clave publica es la que agregaras a GitLab. Puedes mostrarla con este comando:
+     -> cat ~/.ssh/id_rsa.pub
+     Esto mostrara la clave pública en tu terminal. Copia todo el contenido que aparece
+     en la terminal.
+
+3 - Agregar la clave SSH a GitLab
+    3-1 - Inicia sesion en tu cuenta de GitLab.
+    3-2 - Haz clic en tu avatar en la esquina superior derecha y selecciona Preferences.
+    3-3 - En el menu de la izquierda, selecciona SSH Keys (Clave SSH).
+    3-4 - En el campo Key, pega la clave publica SSH que copiaste en el paso anterior.
+    3-5 - Opcionalmente, puedes establecer una fecha de expiracion para la clave.
+    3-6 - Haz clic en Add key (Agregar clave).
