@@ -1,0 +1,28 @@
+Un caluroso dia de verano, Pete y su amigo Billy decidieron comprar una sandia.
+Eligieron la mas grande y madura, según su opinion. Despues, la pesaron y
+la bascula marco cinco kilos. Corrieron a casa, muertos de sed, y decidieron dividir
+la sandia; sin embargo, se enfrentaron a un problema dificil.
+
+A Pete y Billy les encantan los numeros pares, por eso quieren dividir la sandia
+de forma que cada parte pese un numero par de kilos, aunque no es obligatorio
+que las partes sean iguales. Los chicos están muy cansados ​​y quieren empezar
+a comer cuanto antes, asi que ayudalos a ver si pueden dividir la sandía como quieran.
+Seguro que cada uno recibira una parte con peso positivo.
+
+Input
+La primera (y unica) linea de entrada contiene el numero entero w ( 1 ≤  w  ≤ 100 ): el peso
+de la sandía comprada por los niños.
+
+Output
+Imprimir YES , si los niños pueden dividir la sandía en dos partes, cada una de ellas con
+un peso par de kilos; y NO en el caso contrario.
+
+Ejemplo
+Entrada
+8
+Salida
+YES
+
+Nota
+Por ejemplo, los niños pueden dividir la sandia en dos partes de 2 y 6 kilos respectivamente
+(otra variante: dos partes de 4 y 4 kilos respectivamente).

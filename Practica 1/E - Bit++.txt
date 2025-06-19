@@ -1,0 +1,40 @@
+El lenguaje de programacion clasico de Bitland es Bit++. Este lenguaje es peculiar y complejo.
+
+Su peculiaridad reside en que tiene una sola variable, llamada x. Ademas, existen dos operaciones:
+
+- La operacion ++ incrementa el valor de la variable x en 1.
+- La operacion -- disminuye el valor de la variable x en 1.
+
+Una sentencia en el lenguaje Bit++ es una secuencia que consta de una sola operacion y una variable x.
+La sentencia se escribe sin espacios, es decir, solo puede contener los caracteres "+", "-", "X". Ejecutar una
+sentencia significa aplicar la operacion que contiene.
+
+Un programa en Bit++ es una secuencia de sentencias, cada una de las cuales debe ejecutarse.
+Ejecutar un programa significa ejecutar todas las sentencias que contiene.
+
+Se le proporciona un programa en el lenguaje Bit++. El valor inicial de x es 0. Ejecute el programa
+y encuentre su valor final (el valor de la variable cuando se ejecuta el programa).
+
+Input
+La primera linea contiene un entero n (1 <= n <= 150), el numero de sentencias del programa.
+
+Las siguientes n lineas contienen una sentencia cada una. Cada sentencia contiene exactamente
+una operacion (++ o --) y exactamente una variable x (denotada por la letra «X»). Por lo tanto, no hay
+sentencias vacias. La operacion y la variable pueden escribirse en cualquier orden.
+
+Output
+Imprima un solo entero: el valor final de x.
+
+Ejemplo
+Entrada
+1
+++x
+Salida
+1
+
+Entrada
+2
+x++
+--x
+Salida
+0

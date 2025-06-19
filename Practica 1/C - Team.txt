@@ -1,0 +1,42 @@
+Un dia, tres mejores amigas, Petya, Vasya y Tonya, decidieron formar un equipo y participar
+en concursos de programacion. En estos concursos, a los participantes se les suelen proponer
+varios problemas. Mucho antes del inicio, decidieron que implementarian un problema
+si al menos dos de ellas estaban seguras de la solucion. De lo contrario, no escribirian la solucion.
+
+Este concurso ofrece n problemas a los participantes. Para cada problema que conocemos,
+¿que amigo esta seguro de la solucion? Ayudalos a encontrar la cantidad de problemas para los que
+escribiran una solucion.
+
+Input
+La primera linea de entrada contiene un entero n (1 <= n <= 1000): el numero de problemas del concurso.
+Luego, n lineas contienen tres enteros cada una, cada uno de los cuales es 0 o 1. Si el primer numero
+de la linea es 1, Petya esta segura de la solucion del problema; de lo contrario, no esta seguro.
+El segundo numero muestra la opinion de Vasya sobre la solucion; el tercero, la de Tonya. Los numeros
+en las lineas estan separados por espacios.
+
+Output
+Imprima un solo numero entero: la cantidad de problemas que los amigos resolveran en el concurso.
+
+Ejemplo
+Entrada
+3
+1 1 0
+1 1 1
+1 0 0
+Salida
+2
+
+Entrada
+2
+1 0 0
+0 1 1
+Salida
+1
+
+Nota
+En el primer ejemplo, Petya y Vasya estan seguros de saber como resolver el primer problema y los tres saben
+como resolver el segundo. Esto significa que escribiran soluciones para estos problemas. Solo Petya esta segura
+de la solucion del tercer problema, pero eso no es suficiente, asi que los amigos no lo aceptan.
+
+En la segunda muestra, los amigos solo implementaran el segundo problema, ya que Vasya y Tonya estan
+seguras de la solucion.
