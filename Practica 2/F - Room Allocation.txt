@@ -1,0 +1,35 @@
+Hay un hotel grande y pronto llegaran n clientes. Cada cliente desea una habitacion individual.
+
+Se conoce el dia de llegada y salida de cada cliente. Dos clientes pueden alojarse en la misma
+habitacion si el dia de salida del primero es anterior al día de llegada del segundo.
+
+¿Cual es el numero mínimo de habitaciones necesarias para alojar a todos los clientes?
+¿Y cómo se pueden asignar las habitaciones?
+
+Input
+La primera línea de entrada contiene un entero n: el numero de clientes.
+
+Luego hay n lineas, cada una de las cuales describe un cliente. Cada línea
+tiene dos enteros a y b: el dia de llegada y el dia de salida.
+
+Restricciones:
+
+- 1 <= n <= 2.10^5
+- 1 <= a <= b <= 10^9
+
+Output
+Imprima primero un entero k: el numero minimo de habitaciones requeridas.
+
+Despues, imprima una linea que contenga el numero de habitacion de cada
+cliente en el mismo orden que en la entrada. Las habitaciones estan numeradas 1, 2,…, k.
+Puede imprimir cualquier solucion valida.
+
+Ejemplo
+Entrada:
+3
+1 2
+2 4
+4 4
+Salida:
+2
+1 2 1

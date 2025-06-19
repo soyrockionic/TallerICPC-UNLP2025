@@ -1,0 +1,22 @@
+Dado un arreglo de n numeros enteros, su tarea es encontrar
+para cada posicion del arreglo la posicion mas cercana a
+su izquierda que tenga un valor menor.
+
+Input
+La primera linea de entrada tiene un entero n: el tamaño del arreglo.
+
+Restricciones:
+
+- 1 <= n <= 2*10^5
+- 1 <= x, ai <= 10^9
+
+Output
+Imprimir n enteros: para cada posicion del array, la posicion
+mas cercana con el valor menor. Si no existe dicha posicion, imprimir 0.
+
+Ejemplo
+Entrada
+8
+2 5 1 4 8 3 2 5
+Salida
+0 1 0 3 4 3 3 7

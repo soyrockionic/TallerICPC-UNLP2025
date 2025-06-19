@@ -1,0 +1,36 @@
+Se le proporciona un array [p[1],p[2],...,p[n]] donde todos los numeros son distintos. Ademas,
+son enteros positivos entre 1 y n. Solo puede realizar las siguientes operaciones en el array:
+elegir dos índices x e y tales que |p[x]−p[y]|=1, y luego intercambiar los valores de p[x] y p[y].
+Ahora queremos ordenar este array en orden ascendente. Es decir, hacer que p[i]=i para todo
+i ∈ {1,2,…,n}. Por ejemplo, podemos ordenar el array [p[1]=2,p[2]=3,p[3]=1] en dos operaciones:
+
+1 - Intercambia p[1] y p[3]. El arreglo se convierte en [p[1]=1,p[2]=3,p[3]=2].
+2 - Intercambia p[2] y p[3]. El arreglo se convierte en [p[1]=1,p[2]=2,p[3]=3], ordenada de forma ascendente.
+
+Escriba un programa para calcular el numero mínimo de operaciones para ordenar un array dado
+en orden ascendente.
+
+Input
+La entrada contiene dos lineas. La primera linea contiene un entero n. La segunda linea contiene n numeros
+separados por espacios p[1],p[2],…,p[n] que representan el arreglo [p[1],p[2],…,p[n]].
+
+- 1 < n <= 200000
+- 1 <= p[i] <= n
+- Todos los p[i] son ​​distintos.
+
+Output
+Genere solo un numero que indique la cantidad minima de operaciones necesarias para ordenar
+el arreglo dado.
+
+Ejemplo
+Entrada
+3
+1 3 2
+Salida
+1
+
+Entrada
+5
+5 3 2 1 4
+Salida
+7

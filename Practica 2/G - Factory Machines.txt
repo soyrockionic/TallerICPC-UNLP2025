@@ -1,0 +1,30 @@
+Una fabrica tiene n maquinas que pueden utilizarse para fabricar productos. Tu objetivo
+es fabricar un total de t productos.
+
+Para cada maquina, conoces el numero de segundos que necesita para fabricar un solo
+producto. Las maquinas pueden trabajar simultaneamente y puedes decidir libremente
+su programacion.
+
+¿Cual es el tiempo minimo necesario para fabricar t productos?
+
+Entrada
+La primera línea de entrada tiene dos enteros n y t: el numero de máquinas y productos.
+
+La siguiente linea tiene n enteros k1, k2,…, kn: el tiempo necesario para fabricar un
+producto con cada maquina.
+
+Restricciones:
+
+- 1 <= n <= 2*10^5
+- 1 <= t <= 10^9
+- 1 <= ki <= 10^9
+
+Salida
+Imprime un entero: el tiempo mínimo necesario para fabricar t productos.
+
+Ejemplo
+Entrada
+3 7
+3 2 5
+Salida
+8

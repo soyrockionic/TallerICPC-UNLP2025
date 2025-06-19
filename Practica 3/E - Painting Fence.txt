@@ -1,0 +1,49 @@
+Bizon el Campeon no solo es atento, sino tambien muy trabajador.
+
+Bizon el Campeon decidio pintar su vieja cerca de su color favorito, naranja. La cerca esta
+representada por n tablones verticales, colocados en fila. Los tablones adyacentes no tienen
+espacio entre si. Los tablones están numerados de izquierda a derecha, comenzando por el uno.
+El i-esimo tablon tiene 1 metro de ancho y 1 metro de alto.
+
+Bizon el Campeon compro un pincel en la tienda; el pincel tiene 1 metro de ancho. Puede hacer
+pinceladas verticales y horizontales. Durante cada pincelada, la superficie del pincel debe tocar
+la cerca en todo momento (vea los ejemplos para una mejor comprensión). ¿Cuantos pinceladas 
+debe hacer Bizon el Campeon para pintar la cerca por completo? Tenga en cuenta que se permite
+pintar la misma area de la cerca varias veces.
+
+Input
+La primera linea contiene el entero n (1 <= n <= 5000), el numero de tablones de la cerca. La segunda
+linea contiene n enteros separados por espacios: a1, a2,..., an (1 <= ai <= 109).
+
+Output
+Imprima un solo numero entero: el numero minimo de trazos necesarios para pintar toda la cerca.
+
+Ejemplo
+Entrada
+5
+2 2 1 2 1
+Salida
+3
+
+Entrada
+2
+2 2
+Salida
+2
+
+Entrada
+1
+5
+Salida
+1
+
+Nota:
+
+En la primera muestra, debe pintar la valla con tres pinceladas: la primera, horizontalmente,
+a la altura 1 a lo largo de todos los tablones. La segunda, horizontalmente, a la altura 2,
+pinta el primer y el segundo tablon. La tercera, que puede ser horizontal o vertical, termina
+de pintar el cuarto tablon.
+
+En la segunda muestra, puede pintar la valla con dos pinceladas, ya sean horizontales o verticales.
+
+En la tercera muestra, solo hay un tablón que se puede pintar con una sola pincelada vertical.

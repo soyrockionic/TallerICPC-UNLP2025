@@ -1,0 +1,28 @@
+Se le indican las horas de llegada y salida de n clientes en un restaurante.
+
+¿Cual fue el numero maximo de clientes?
+
+Input
+La primera linea de entrada tiene un entero n: el numero de clientes.
+
+Despues de esto, hay n líneas que describen a los clientes. Cada línea contiene
+dos enteros a y b: las horas de llegada y salida de un cliente.
+
+Se puede asumir que todas las horas de llegada y salida son distintas.
+
+Restricciones:
+
+- 1 <= n <= 2*10^5
+- 1 <= a <= b <= 10^9
+
+Output
+Imprima un entero: el numero maximo de clientes.
+
+Ejemplo
+Entrada:
+3
+5 8
+2 4
+3 9
+Salida:
+2

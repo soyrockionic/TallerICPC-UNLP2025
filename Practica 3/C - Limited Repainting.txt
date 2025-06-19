@@ -1,0 +1,70 @@
+Se le proporciona una tira que consta de n celdas, todas ellas inicialmente coloreadas de rojo.
+
+En una sola operacion, puede elegir un segmento de celdas consecutivas y pintarlas de azul.
+Antes de pintar, las celdas elegidas pueden ser rojas o azules. Tenga en cuenta que no es posible
+pintarlas de rojo. Puede realizar un maximo de k operaciones (posiblemente cero).
+
+Para cada celda, se especifica el color deseado despues de todas las operaciones: rojo o azul.
+
+Es evidente que no siempre es posible satisfacer todos los requisitos en k operaciones. Por lo tanto,
+para cada celda se especifica una penalizacion, que se aplica si la celda presenta el color incorrecto
+despues de todas las operaciones. Para la celda i, la penalizacion es igual a ai.
+
+La penalizacion por la pintura final se calcula como la penalización maxima entre todas las celdas
+pintadas con el color incorrecto. Si no hay celdas pintadas con el color incorrecto, la penalizacion
+por pintura es igual a 0.
+
+¿Cual es la penalizacion minima del cuadro final que se puede alcanzar?
+
+Input
+La primera linea contiene un unico entero t(1 <= t <= 10^4): el numero de casos de prueba.
+
+La primera linea de cada caso de prueba contiene dos enteros n y k (1 <= n <= 3*10^5; 0 <= k <= n) — la longitud
+de la tira y el numero maximo de operaciones.
+
+La segunda linea contiene una cadena s, compuesta por n caracteres, 'R' y/o 'B'. 'R' significa que la celda
+debe pintarse de rojo. 'B' significa que la celda debe pintarse de azul.
+
+La tercera linea contiene n enteros a1, a2,…, an (1 <= ai <= 10^9) — la penalizacion por cada celda.
+
+La suma de n en todos los casos de prueba no supera 3*10^5.
+
+Output
+Para cada caso de prueba, imprima un solo entero: la penalizacion minima de la pintura final.
+
+Ejemplo
+Entrada
+5
+4 1
+BRBR
+9 3 5 4
+4 1
+BRBR
+9 5 3 4
+4 2
+BRBR
+9 3 5 4
+10 2
+BRBRBBRRBR
+5 1 2 4 5 3 6 1 5 4
+5 5
+RRRRR
+5 3 1 2 4
+Salida
+3
+3
+0
+4
+0
+
+Nota
+En el primer caso de prueba, se pueden pintar las celdas de la 1 a la 3. El color sera BBBR. Por lo tanto,
+solo la celda 2 se pintara del color incorrecto. Por lo tanto, la penalizacion es la penalizacion final
+y es igual a 3.
+
+En el segundo caso de prueba, pintar BBBR ahora resultara en una penalizacion de 5. Sin embargo,
+si se pintan las celdas de 1 a 1, resultando en BRRR, solo la celda 3 se pintara del color incorrecto. 
+La penalizacion final es de 3.
+
+En el tercer caso de prueba, puedes pintar las celdas del 1 al 1 y del 3 al 3. Entonces todas las celdas tendran
+el color correcto; la penalización es 0.

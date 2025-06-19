@@ -1,0 +1,23 @@
+Se le proporciona una lista de n numeros enteros y su tarea es calcular la
+cantidad de valores distintos en la lista.
+
+Input
+
+La primera línea de entrada contiene un entero n: el número de valores.
+
+La segunda línea contiene n enteros: x1, x2, ..., xn
+
+Restricciones:
+
+- 1 <= n <= 2*10^5
+- 1 <= xi <= 10^9
+
+Output
+Imprima un entero: el numero de valores distintos.
+
+Ejemplo
+Entrada:
+5
+2 3 2 2 3
+Salida:
+2

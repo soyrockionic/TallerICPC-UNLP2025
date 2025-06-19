@@ -1,0 +1,21 @@
+Encontrar el valor de x tal que x^2 + sqrt(x) = c
+
+Input
+El input consiste de una sola linea con un numero real c.
+
+1.0 <= c <= 10^10
+
+Output
+Imprimi un numero, el valor x requerido. La respuesta sera considerada correcta si el error
+relativo o absoluto no es mayor que 10^-6
+
+Ejemplo
+Entrada
+2.0
+salida
+1.0000000000
+
+Entrada
+15.6
+Salida
+3.6982321688

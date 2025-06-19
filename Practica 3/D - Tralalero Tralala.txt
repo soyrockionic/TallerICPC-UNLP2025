@@ -1,0 +1,17 @@
+Dado un arreglo a de tamaño n, decimos que una pareja (i,j) es una inversion
+si i<j y a[i] > a[j]. Contar la cantidad de parejas (i,j) que son inversiones
+
+Input
+En la primera linea habra un numero 1 ≤ n ≤ 500000 con el tamaño del arreglo.
+En la siguiente linea habra n numeros
+-10^9 ≤ a[i] ≤ 10^9 separados por un espacio.
+
+Output
+Imprimir un solo numero, con la cantidad de inversiones existentes en el arreglo
+
+Ejemplo
+Entrada
+6
+6 2 1 4 5 3
+Salida
+8

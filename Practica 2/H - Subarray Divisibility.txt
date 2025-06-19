@@ -1,0 +1,22 @@
+Dado un arreglo de n enteros, su tarea es contar el numero de subarreglos
+donde la suma de valores es divisible por n.
+
+Input
+La primera linea de entrada contiene un entero n: el tamaño del array.
+
+La siguiente línea contiene n enteros a1, a2,…, an: el contenido del array.
+
+Restricciones:
+
+- 1 <= n <= 2*10^5
+- -10^9 <= ai <= 10^9
+
+Output
+Imprima un entero: el numero requerido de submatrices.
+
+Ejemplo
+Entrada
+5
+3 1 2 7 4
+Salida
+1

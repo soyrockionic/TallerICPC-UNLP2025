@@ -1,0 +1,56 @@
+Imagina que tienes n bombillas numeradas del 1 al 2. Inicialmente, todas estan encendidas.
+Invertir el estado de una bombilla significa apagarla si estaba encendida y encenderla si no.
+
+A continuación, realizas lo siguiente:
+
+para cada i = 1, 2,…, n, inviertes el estado de todas las bombillas j de manera que j sea divisible por i.
+
+Despues de realizar todas las operaciones, habrá varias bombillas encendidas. Tu objetivo es que
+este numero sea exactamente k.
+
+Encuentra el n mas pequeño adecuado de manera que, despues de realizar las operaciones,
+haya exactamente k bombillas encendidas. Podemos demostrar que siempre existe una solucion.
+
+Un entero x es divisible por y si existe un entero z tal que x = y⋅z.
+
+Input
+Cada prueba contiene varios casos de prueba. La primera línea contiene el numero de casos de
+prueba t(1 <= t <= 10^4). A continuacion, se describe cada caso de prueba.
+
+La unica linea de cada caso de prueba contiene un entero k(1 <= k <= 10^18).
+
+Output
+Para cada caso de prueba, salida n: el número mínimo de bombillas.
+
+Ejemplo
+Entrada
+3
+1
+3
+8
+Salida
+2
+5
+11
+
+En el primer caso de prueba, el numero mínimo de bombillas es 2. Denotemos el estado de todas las
+bombillas con una matriz, donde 1 corresponde a una bombilla encendida y 0 corresponde a una
+bombilla apagada. Inicialmente, la matriz es [1,1].
+
+- Tras realizar la operación con i=1, la matriz se convierte en [0–,0–]
+- Tras realizar la operación con i=2, la matriz se convierte en [0,1–]
+
+Al final, hay k = 1 bombillas encendidas. También podemos demostrar que la respuesta no puede
+ser menor que 2.
+
+
+En el segundo caso de prueba, el número mínimo de bombillas es 5. Inicialmente, la matriz es [1,1,1,1,1]
+
+- Tras realizar la operación con i=1, la matriz se convierte en [0–,0–,0–,0–,0–]
+- Tras realizar la operación con i=2, la matriz se convierte en [0,1–,0,1–,0]
+- Tras realizar la operación con i=3, la matriz se convierte en [0,1,1–,1,0]
+- Tras realizar la operación con i=4, la matriz se convierte en [0,1,1,0–,0]
+- Tras realizar la operación con i=5, la matriz se convierte en [0,1,1,0,1–]
+
+Al final, hay k = 3 bombillas encendidas. También podemos demostrar que la respuesta no puede
+ser menor que 5.
