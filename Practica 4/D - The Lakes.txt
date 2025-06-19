@@ -1,0 +1,59 @@
+Se le proporciona una cuadrícula de n x m grid a de numeros enteros no negativos. El valor ai,j
+representa la profundidad del agua en la i-esima fila y la j-esima columna.
+
+Un lago es un conjunto de celdas tales que:
+
+- cada celda del conjunto tiene ai,j > 0, y 
+- existe un camino entre cualquier par de celdas del lago subiendo, bajando, yendo a la izquierda
+  o a la derecha varias veces, sin pisar ninguna celda con ai,j = 0.
+
+El volumen de un lago es la suma de las profundidades de todas sus celdas.
+
+Encuentra el mayor volumen de un lago en la cuadrícula.
+
+Input
+
+La primera linea contiene un unico entero t(1 ≤ t ≤ 10^4): el numero de casos de prueba.
+
+La primera linea de cada caso de prueba contiene dos numeros enteros n, m (1≤n, m≤1000): el numero
+de filas y columnas de la cuadricula, respectivamente.
+
+Luego, n líneas siguen cada una con m enteros ai,j (0 ≤ ai, j ≤ 1000): la profundidad del agua en cada celda.
+
+Se garantiza que la suma de n*m en todos los casos de prueba no exceda 10^6.
+
+Output
+Para cada caso de prueba, genere un unico numero entero: el volumen mas grande de un lago
+en la cuadricula.
+
+Ejemplo
+Entrada
+5
+3 3
+1 2 0
+3 4 0
+0 0 5
+1 1
+0
+3 3
+0 1 1
+1 0 1
+1 1 1
+5 5
+1 1 1 1 1
+1 0 0 0 1
+1 0 5 0 1
+1 0 0 0 1
+1 1 1 1 1
+5 5
+1 1 1 1 1
+1 0 0 0 1
+1 1 4 0 1
+1 0 0 0 1
+1 1 1 1 1
+Salida
+10
+0
+7
+16
+21

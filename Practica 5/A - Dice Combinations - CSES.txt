@@ -1,0 +1,22 @@
+Problem A - Dice Combinations - CSES
+
+Dado un numero n, contar de cuantas formas se puede sumar exactamente n
+usando solo los numeros del 1 al 6 (como si tiraras un dado muchas veces
+y sumaras los resultados).
+
+Ejemplo:
+Para n = 3, las combinaciones posibles son:
+- 1+1+1
+- 1+2
+- 2+1
+- 3
+Total = 4 formas.
+
+Input
+La unica linea de entrada tiene un entero n.
+
+Restricciones
+1 <= n <= 10^6
+
+Output
+Imprime el numero de vias modulo 10^9 + 7.

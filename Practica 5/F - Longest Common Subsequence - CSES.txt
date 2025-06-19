@@ -1,0 +1,30 @@
+Problem F - Longest Common Subsequence - CSES
+
+Dados dos arrays de enteros, encuentre su subsecuencia comun mas larga. Una subsecuencia es una secuencia
+de elementos de un array, de izquierda a derecha, que puede contener espacios. Una subsecuencia comun
+es una subsecuencia que aparece en ambos arrays.
+
+Input
+La primera linea contiene dos enteros n y m: los tamaños de los arrays.
+
+La segunda linea contiene n enteros a1, a2,…, an: el contenido del primer array.
+
+La tercera líiea contiene m enteros b1, b2,…, bm: el contenido del segundo array.
+
+Restricciones
+1 ≤ n, m ≤ 1000
+1 ≤ ai, bi ≤ 10^9
+
+Output
+Primero, imprima la longitud de la subsecuencia comun mas larga.
+
+Despues, imprime un ejemplo de dicha secuencia. Si hay varias soluciones, puedes imprimir cualquiera de ellas.
+
+Ejemplo
+Entrada
+8 6
+3 1 3 2 7 4 8 2
+6 5 1 2 3 4
+Salida
+3
+1 3 4

@@ -1,0 +1,26 @@
+Problem E - Cyclic Components
+
+Se te proporciona un plano de un edificio y tu tarea es contar el numero de habitaciones.
+El plano mide n×m cuadrados, y cada cuadrado representa el suelo o la pared. Puedes recorrer
+los cuadrados del suelo a la izquierda, a la derecha, arriba y abajo.
+
+Input
+La primera linea de entrada contiene dos enteros n y m: la altura y el ancho del mapa. A continuacion,
+hay n lineas de m caracteres que describen el mapa. Cada carácter es "." (piso) o "#" (pared).
+
+Constraints
+
+1 <= n,m <= 1000
+
+Output
+Salida Imprimir un entero: el numero de habitaciones.
+
+Ejemplo
+Entrada
+5 8
+########
+#..#...#
+####.#.#
+#..#...#
+Salida
+3

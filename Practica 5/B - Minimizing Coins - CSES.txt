@@ -1,0 +1,31 @@
+Problem B - Minimizing Coins - CSES
+
+Considere un sistema monetario compuesto por n monedas. Cada moneda tiene un
+valor entero positivo. Su tarea consiste en generar una suma de dinero x utilizando
+las monedas disponibles de forma que el numero de monedas sea mínimo.
+
+Por ejemplo, si las monedas son {1,5,7} y la suma deseada es 11, una solución optima es 5+5+1,
+que requiere 3 monedas.
+
+Input
+
+La primera linea de entrada contiene dos enteros n y x: el numero de monedas
+y la suma de dinero deseada.
+
+La segunda linea contiene n enteros distintos c1, c2,…, cn: el valor de cada moneda.
+
+Restricciones
+1 <= n <= 100
+1 <= x <= 10^6
+1 <= ci <= 10^6
+
+Output
+Imprima un entero: el numero mínimo de monedas. Si no es posible obtener
+la suma deseada, imprima −1.
+
+Ejemplo
+Entrada
+3 11
+1 5 7
+Salida
+3

@@ -1,0 +1,62 @@
+Problem C - Rumor
+
+Vova se prometio a si mismo que nunca jugaria videojuegos... Pero recientemente Firestorm, una conocida
+compañia desarrolladora de videojuegos, publico su nuevo juego, World of Farcraft, y se volvio muy popular.
+Por supuesto, Vova empezo a jugarlo.
+
+Ahora intenta resolver una mision. La tarea consiste en llegar a un asentamiento llamado Overcity y difundir
+un rumor en el.
+
+Vova sabe que hay n personajes en Overcity. Algunos son amigos entre si y comparten la informacion
+que obtienen. También sabe que puede sobornar a cada personaje para que difunda el rumor;
+el personaje i-eesimo quiere 100 de oro a cambio de difundirlo. Cuando un personaje escucha el rumor,
+se lo cuenta a todos sus amigos, y estos empiezan a difundirlo entre sus amigos (gratis), y asi sucesivamente.
+
+La mision termina cuando los n personajes conocen el rumor. ¿Cual es la cantidad minima de oro que Vova
+necesita gastar para completar la mision?
+
+Consulta las notas si crees que no has entendido bien el problema.
+
+Input
+
+La primera linea contiene dos numeros enteros n y m (1 <= n <= 105, 0 <= m <= 105): la cantidad de personajes en
+Overcity y la cantidad de pares de amigos.
+
+La segunda linea contiene n numeros enteros ci (0 ≤ ci ≤ 109): la cantidad de oro que el i-esimo caracter
+pide para comenzar a difundir el rumor.
+
+A continuacion, siguen m líneas, cada una con un par de números (xi, yi) que representan que los caracteres xi e yi
+son amigos (1 <= xi, yi <? n, xi != yi). Se garantiza que cada par se enumera como maximo una vez.
+
+Output
+Imprime un numero: la cantidad minima de oro que Vova debe gastar para completar la mision.
+
+Ejemplo
+Entrada
+5 2
+2 5 3 4 8
+1 4
+4 5
+Salida
+10
+
+Entrada
+10 5
+1 6 2 7 3 8 4 9 5 10
+1 2
+3 4
+5 6
+7 8
+9 10
+Salida
+15
+
+Nota
+En el primer ejemplo, la mejor decision es sobornar al primer personaje (el difundira el rumor al cuarto
+personaje, y este lo difundira al quinto). Ademas, Vova debe sobornar al segundo y al tercer personaje
+para que conozcan el rumor.
+
+En el segundo ejemplo, Vova debe sobornar a todos.
+
+En el tercer ejemplo, la decisión optima es sobornar al primer, al tercero, al quinto, al septimo y al
+noveno personaje.

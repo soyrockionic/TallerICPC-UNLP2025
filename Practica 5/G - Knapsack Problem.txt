@@ -1,0 +1,29 @@
+Problem G - Problema de la mochila - CSES
+
+Tenemos un total de n objetos distintos. Conocemos el valor y el peso en kg de cada uno de los objetos.
+Con nosotros llevamos una mochila capaz de llevar hasta x kilos de peso. ¿Cual es el valor maximo
+que podemos llevar en nuestra mochila? Cada objeto lo podemos llevar una sola vez.
+
+Cotas
+1 <= n <= 1000
+1 <= x <= 10^5
+1 <= hi, si <= 1000
+
+Input
+La primera linea contiene dos enteros n y x: la cantidad de objetos y la capacidad maxima de peso
+que podemos llevar en la mochila.
+
+La siguiente linea contiene n enteros p1,p2,…,pn: el peso de cada uno de los objetos.
+
+La ultima línea contiene n enteros v1,v2,…,vn: el valor de cada uno de los objetos.
+
+Output
+Imprimir un unico numero entero: el valor maximo que podemos llevar en la mochila.
+
+Ejemplo
+Entrada
+4 10
+4 8 5 3
+5 12 8 1
+Salida
+13

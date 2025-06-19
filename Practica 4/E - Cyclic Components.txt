@@ -1,0 +1,64 @@
+Se te proporciona un grafo no dirigido que consta de n vertices y m aristas. Tu tarea es determinar
+el numero de componentes conexos que son ciclos.
+
+A continuacion se presentan algunas definiciones de la teoría de grafos.
+
+Un grafo no dirigido consta de dos conjuntos: un conjunto de nodos (llamados vertices) y un conjunto de aristas.
+Cada arista conecta un par de vertices. Todas las aristas son bidireccionales (es decir, si un vertice a esta
+conectado con un vertice b, un vertice b tambien esta conectado con un vertice a). Una arista no puede conectar
+un vertice consigo misma; hay como maximo una arista entre un par de vertices.
+
+Dos vertices u y v pertenecen al mismo componente conexo si y solo si existe al menos un camino a lo largo
+de las aristas que conectan u y v.
+
+Un componente conexo es un ciclo si y solo si sus vértices pueden reordenarse de tal manera que:
+
+- El primer vertice esta conectado al segundo vertice por una arista.
+- El segundo vertice esta conectado al tercer vertice por una arista.
+- ...
+- El ultimo vertice esta conectado al primer vertice por una arista.
+- Todas las aristas descritas de un ciclo son distintas.
+
+Un ciclo no contiene otras aristas, salvo las descritas anteriormente. Por definición, cualquier ciclo contiene
+tres o mas vertices.
+
+Input
+La primera linea contiene dos numeros enteros n y m (1 <= n <= 2*10^-14, 0 <= m <= 2*10^-14) — numero de
+vertices y aristas.
+
+Las siguientes m lineas contienen aristas: la arista i se da como un par de vertices vi, ui (1 <= vi, ui <= n, ui != vi).
+No hay aristas multiples en el grafo dado; es decir, para cada par (vi,ui) no hay otros pares (vi,ui) y (ui,vi) en la lista
+de aristas.
+
+Output
+Imprima un entero: el numero de componentes conectados que tambien son ciclos.
+
+Ejemplo
+Entrada
+5 4
+1 2
+3 4
+5 4
+3 5
+Salida
+1
+
+Entrada
+17 15
+1 8
+1 12
+5 11
+11 9
+9 15
+15 5
+4 13
+3 13
+4 3
+10 16
+7 10
+16 7
+14 3
+14 4
+17 6
+Salida
+2

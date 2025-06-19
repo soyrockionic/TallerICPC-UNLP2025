@@ -1,0 +1,30 @@
+Problem D - Coin Combinations II - CSES
+
+Considere un sistema monetario compuesto por n monedas. Cada moneda tiene
+un valor entero positivo. Su tarea consiste en calcular el numero de maneras distintas
+y ordenadas de producir una suma monetaria x utilizando las monedas disponibles.
+Por ejemplo, si las monedas son {2, 3, 5} y la suma deseada es 9, hay 3 maneras:
+
+2+2+5
+3+3+3
+2+2+2+3
+
+Input
+La primera linea de entrada contiene dos enteros n y x: el numero de monedas y
+la suma de dinero deseada. La segunda linea contiene n enteros distintos
+c1, c2,…, cn: el valor de cada moneda.
+
+Restricciones
+1 <= n <= 100
+1 <= x <= 10^6
+1 <= ci <= 10^6
+
+Output
+Imprime un entero: el numero de vias modulo 10^9 + 7.
+
+Ejemplo
+Entrada
+3 9
+2 3 5
+Salida
+3

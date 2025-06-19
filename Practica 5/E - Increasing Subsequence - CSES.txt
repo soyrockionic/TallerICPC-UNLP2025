@@ -1,0 +1,24 @@
+Problem E - Increasing Subsequence - CSES
+
+Se le proporciona un array que contiene n enteros. Su tarea es determinar la subsecuencia
+creciente mas larga del array, es decir, la subsecuencia mas larga donde cada elemento
+es mayor que el anterior. Una subsecuencia es una secuencia que se puede derivar del
+array eliminando algunos elementos sin cambiar el orden de los elementos restantes.
+
+Input
+La primera linea contiene un entero n: el tamaño del array. Despues, hay n enteros
+x1, x2,…, xn: el contenido del array.
+
+Restricciones
+1 <= n <= 2*10^5
+1 <= xi <= 10^9
+
+Output
+Imprima la longitud de la subsecuencia creciente mas larga.
+
+Ejemplo
+Entrada
+8
+7 3 5 3 6 2 9 8
+Salida
+4
