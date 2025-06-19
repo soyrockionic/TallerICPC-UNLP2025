@@ -1,0 +1,31 @@
+Problem G - MORNAZO => Mini Contest - Taller UNLP #1 => Div. 4
+
+La notacion numerica ternaria es muy popular en la casa del Mono. Para telegrafiar
+el numero ternario se utiliza el alfabeto MORNAZO basado en el Morse. El digito 0
+es transmitido como '.', 1 es '-.' y 2 es '--'. Debe decodificar el codigo MORNAZO,
+es decir, averiguar el numero ternario segun su representacion en el alfabeto MORNAZO.
+
+Input
+La primera linea contiene un numero en codigo MORNAZO. La longitud de la cadena oscila
+entre 1 y 200 caracteres. Se garantiza que la cadena dada es un codigo MORNAZO valido de algun
+número ternario (este numero puede tener ceros a la izquierda).
+
+Output
+Genera el numero ternario decodificado. Puede tener ceros a la izquierda
+
+Ejemplo
+Entrada
+.-.--
+Salida
+012
+
+Entrada
+--.
+Salida
+20
+
+Entrada
+-..-.--
+Salida
+1012
+

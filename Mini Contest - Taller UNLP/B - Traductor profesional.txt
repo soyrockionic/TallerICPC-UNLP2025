@@ -1,0 +1,33 @@
+Problem B - Traductor profesional => Mini Contest - Taller UNLP #1 => Div. 4
+
+Como todos saben, el Mono es un traductor profesional.
+
+El mono tiene la traduccion de n palabras de un idioma extraño, y una frase de m
+palabras. Traducir la frase mediante las reglas de traduccion que tiene el Mono.
+
+Input
+La primera linea contiene dos enteros positivos n y m(1 <= n, m <= 100).
+
+Las siguientes n lineas contienen dos strings si y ti cada una (1 <= |si|, |ti| <= 10). Que significa
+que la traduccion de la palabra del idioma extraño si se traduce a ti. Es garantizado que todas
+las si y las ti son palabras distintas.
+
+La siguiente linea contiene m palabras p1,p2,…,pm (1 <= |pi| <= 10) separados por un espacio,
+formando la frase que debe ser traducida por el Mono. Es garantizado que cada palabra en la frase
+se encuentra en el manual de traduccion del Mono.
+
+Todas las palabras estan compuestas por letras minusculas del ingles.
+
+Output
+Imprimir una linea con m palabras q1,q2,…,qm, separadas por un espacio, representando
+la traduccion de la frase completa.
+
+Ejemplo
+Entrada
+3 4
+wo i
+qiu ball
+ni you
+wo qiu qiu ni
+Salida
+i ball ball you

@@ -1,0 +1,42 @@
+Problem E - Los cristales del Turko => Mini Contest - Taller UNLP #1 => Div. 4
+
+El Turko una vez agarra un cristal en una mina. Un cristal de tamaño n (n es impar; n > 1) es una matriz n×n
+con un diamante inscripto.
+
+Se te da un entero impar n. Y tu debes dibujar un cristal tamaño n. Las celdas de diamante de la matriz
+deben representarse con el caracter "D". Todas las demas celdas de la matriz deben representarse
+con el caracter "*". Observe los ejemplos para comprender que debe dibujar.
+
+Input
+La unica linea contiene un entero n (3 <= n <= 101; n es impar).
+
+Output
+Genera un cristal de tamaño n.
+
+Ejemplo
+Entrada
+3
+Salida
+*D*
+DDD
+*D*
+
+Entrada
+5
+Salida
+**D**
+*DDD*
+DDDDD
+*DDD*
+**D**
+
+Entrada
+7
+Salida
+***D***
+**DDD**
+*DDDDD*
+DDDDDDD
+*DDDDD*
+**DDD**
+***D***

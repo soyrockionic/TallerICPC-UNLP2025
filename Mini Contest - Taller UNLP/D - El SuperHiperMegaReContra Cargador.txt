@@ -1,0 +1,56 @@
+Tienes n dispositivos que deseas usar simultaneamente.
+
+El dispositivo numero i consume ai unidades de energía por segundo. Este consumo es continuo. Es decir,
+en λ segundos, el dispositivo consumira λ*ai unidades de energia. El dispositivo i actualmente tiene bi
+unidades de energia almacenadas. Todos los dispositivos pueden almacenar una cantidad arbitraria de energia.
+
+Tienes un solo cargador que puede conectarse a cualquier dispositivo. El cargador añade p unidades de energia 
+por segundo a un dispositivo. Esta carga tambien es continua. Es decir, si conectas un dispositivo durante
+λ segundos, ganara λ*p unidades de energia. Puedes cambiar el dispositivo que esta cargando en cualquier
+momento (incluso en tiempos reales), y el tiempo que tarda en cambiar es despreciable.
+
+Te preguntas: ¿cual es el tiempo maximo durante el cual puedes usar los dispositivos hasta que alguno de ellos
+se quede sin energia?
+
+Si puedes usar los dispositivos indefinidamente, imprime -1. En caso contrario, imprime el tiempo maximo
+antes de que algun dispositivo llegue a 0 unidades de energa.
+
+Input
+La primera linea contiene dos enteros n y p (1  <= n <= 100.000, 1 <= p <= 10^9): el numero de dispositivos
+y la potencia del cargador.
+
+Luego siguen n lineas, cada una con dos enteros. La línea i contiene los enteros ai y bi (1 <= ai, bi <= 100.000):
+el consumo por segundo y la energía inicial del dispositivo i.
+
+Ouput
+Si puedes usar los dispositivos indefinidamente, imprime -1. De lo contrario, imprime el tiempo maximo
+antes de que algun dispositivo se quede sin energia.
+
+Tu respuesta se considerara correcta si su error absoluto o relativo no supera 10^-4.
+
+En otras palabras, supongamos que tu respuesta es a y la del jurado es b. El programa validador considerara
+tu respuesta correcta si se cumple:
+
+|a-b| / max(1,b) <= 10^-4
+
+Ejemplo
+Entrada
+2 1
+2 2
+2 1000
+Salida
+2.0000000000
+
+Entrada
+1 100
+1 1
+Salida
+-1
+
+Entrada
+3 5
+4 3
+5 2
+6 1
+Salida
+0.5000000000

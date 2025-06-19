@@ -1,0 +1,56 @@
+Problem C - Ahorremos electricidad que salta la termica => Mini Contest - Taller UNLP #1 => Div. 4
+
+Debido a la pandemia de coronavirus, las autoridades municipales obligaron a los ciudadanos
+a mantener la distancia social. El Intendente, Rodo, quiere iluminar el parque San Martin para
+que la gente pueda verse incluso de noche y asi mantener la distancia social.
+
+El parque es una mesa rectangular con n filas y m Columnas, donde las celdas de la tabla
+son cuadrados y los limites entre celdas son calles. Los bordes externos tambien son calles.
+Cada calle tiene una longitud 1. Por ejemplo, parque con n=m=2 tiene 12 calles.
+
+Se te asigno desarrollar un plan para iluminar el parque. Puedes colocar faroles en medio
+de las calles. La farola ilumina dos casillas cercanas (o solo una si está en el limite del parque).
+
+Rodo quiere gastar la menor cantidad posible en iluminacion, pero tambien quiere que la gente
+de todo el parque mantenga la distancia social. Por eso, te pide que encuentres el numero minimo
+de faroles necesarios para iluminar todas las plazas.
+
+Input
+La primera linea contiene un solo entero t (1≤t≤104) — El numero de casos de prueba. Entonces a continuacion
+se presentan los t casos de prueba siguientes.
+
+Cada caso de prueba es una linea que contiene dos enteros n, m (1 <= n, m <= 10^4) — con los tamaños
+de los parques.
+
+Output
+Imprime t respuestas para los casos de prueba. Cada respuesta debe ser un entero: el numero minimo de faroles
+necesarios para iluminar todos los cuadrados.
+
+Ejemplo
+Entrada
+5
+1 1
+1 3
+2 2
+3 3
+5 3
+Salida
+1
+2
+2
+5
+8
+
+Nota
+Posible disposicion optima de las linternas para el segundo caso de prueba del ejemplo de datos de entrada:
+ ______ ______ ______
+|           |           |          |
+|          o           |         o
+|______|______ |______|
+
+Posible disposicion optima de las linternas para el tercer caso de prueba del ejemplo de datos de entrada:
+ _____ _____
+|         |         |
+|__o__|__o__|
+|         |         |
+|_____|_____|
