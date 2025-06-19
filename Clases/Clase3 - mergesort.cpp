@@ -34,10 +34,6 @@ void mergesort(vector <int> &a) {
     for(int i = posl; i < l.size(); i++) a.push_back(l[i]);
     for(int i = posr; i < r.size(); i++) a.push_back(r[i]);
 	
-    // for(int u : copia) cout << u << " "; cout << "\n";
-    // for(int u : a) cout << u << " "; cout << "\n";
-    // cout << "========================================" << "\n";
-	
     return;
 }
 
