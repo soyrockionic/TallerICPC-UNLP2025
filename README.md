@@ -15,7 +15,7 @@
 
 ---
 
-### 3. Algoritmos de Ordenamiento y Busqueda
+### 3. Algoritmos de sorting
 - Estrategia de Divide y venceras
 - Merge Sort
 - Busqueda Binaria
@@ -35,7 +35,7 @@
 
 ---
 
-### 6. Estructuras de Datos Avanzadas
+### 6. Estructuras de Datos nivel 2
 - Sparse Table: Consultas de rango (RMQ) en tiempo constante
 
 ---
