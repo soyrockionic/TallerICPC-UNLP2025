@@ -1,16 +1,16 @@
     Taller de Programacion Competitiva
 
- 1. Introduccion a C++ y Programacion Competitiva
+    Introduccion a C++ y Programacion Competitiva
 
- 2. Estructuras de Datos Basicas : vector, string, set, map, queue, priority-queue
+    Estructuras de Datos Basicas : vector, string, set, map, queue, priority-queue
 
- 3. Algoritmos de sorting : Divide y conquistaras, Merge Sort, Busqueda Binaria
+    Algoritmos de sorting : Divide y conquistaras, Merge Sort, Busqueda Binaria
 
- 4. Teoria de Grafos : Modelos de grafos -> Matriz de adyacencia, Lista de adyacencia ;
+    Teoria de Grafos : Modelos de grafos -> Matriz de adyacencia, Lista de adyacencia ;
     Algoritmos de busqueda -> DFS (Depth-First Search), BFS (Breadth-First Search)
 
- 5. Programacion Dinamica (DP) : Knapsack, LCS (Longest Common Subsequence), LIS (Longest Increasing Subsequence)
+    Programacion Dinamica (DP) : Knapsack, LCS (Longest Common Subsequence), LIS (Longest Increasing Subsequence)
 
-6. Estructuras de Datos nivel 2 : Sparse Table -> Consultas de rango (RMQ) en tiempo constante
+    Estructuras de Datos nivel 2 : Sparse Table -> Consultas de rango (RMQ) en tiempo constante
 
-7. Teoria de Numeros: Criba de Eratostenes, Exponenciacion binaria, Aritmetica modular, Factorizacion en primos
+    Teoria de Numeros: Criba de Eratostenes, Exponenciacion binaria, Aritmetica modular, Factorizacion en primos
