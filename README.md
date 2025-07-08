@@ -9,10 +9,8 @@
  4. Teoria de Grafos : Modelos de grafos -> Matriz de adyacencia, Lista de adyacencia ;
     Algoritmos de busqueda -> DFS (Depth-First Search), BFS (Breadth-First Search)
 
- 5. Programacion Dinamica (DP) : Knapsack, LCS (Longest Common Subsequence),
-                                 LIS (Longest Increasing Subsequence)
+ 5. Programacion Dinamica (DP) : Knapsack, LCS (Longest Common Subsequence), LIS (Longest Increasing Subsequence)
 
 6. Estructuras de Datos nivel 2 : Sparse Table -> Consultas de rango (RMQ) en tiempo constante
 
-7. Teoria de Numeros: Criba de Eratostenes para generar numeros primos, Exponenciacion binaria,
-                      Aritmetica modular, Factorizacion en primos
+7. Teoria de Numeros: Criba de Eratostenes, Exponenciacion binaria, Aritmetica modular, Factorizacion en primos
