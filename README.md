@@ -1,7 +1,6 @@
-    Taller de Programacion Competitiva
+Taller de Programacion Competitiva
 
- 1. Introduccion a C++ y Programacion Competitiva: Introduccion al lenguaje C++
-    y Estructura tipica de un programa competitivo
+ 1. Introduccion a C++ y Programacion Competitiva
 
  2. Estructuras de Datos Basicas: vector, string, set, map, queue, priority-queue
 
