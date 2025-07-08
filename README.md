@@ -23,10 +23,8 @@
 ---
 
 ### 4. Teoria de Grafos
-- Modelado de grafos:
-  - Matriz de adyacencia, Lista de adyacencia
-- Algoritmos de busqueda:
-  - DFS (Depth-First Search), BFS (Breadth-First Search)
+- Modelado de grafos: Matriz de adyacencia, Lista de adyacencia
+- Algoritmos de busqueda: DFS (Depth-First Search), BFS (Breadth-First Search)
 
 ---
 
@@ -38,8 +36,7 @@
 ---
 
 ### 6. Estructuras de Datos Avanzadas
-- Sparse Table:
-  - Consultas de rango (RMQ) en tiempo constante
+- Sparse Table: Consultas de rango (RMQ) en tiempo constante
 
 ---
 
