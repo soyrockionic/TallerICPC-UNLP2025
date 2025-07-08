@@ -17,7 +17,8 @@ Para n = 10:
 - Lista inicial: 2, 3, 4, 5, 6, 7, 8, 9, 10
 - Primero, p = 2, eliminamos multiplos: 4, 6, 8, 10
 - p = 3, eliminamos multiplos: 9
-- p = 5, pero 5^2 = 25 > 10, paro aqui- Numeros que quedan: 2, 3, 5, 7 -> primos
+- p = 5, pero 5^2 = 25 > 10, paro aqui
+- Numeros que quedan: 2, 3, 5, 7 -> primos
 */
 
 #include <bits/stdc++.h>
