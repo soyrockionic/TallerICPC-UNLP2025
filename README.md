@@ -1,4 +1,4 @@
-## Taller de Programacion Competitiva
+### Taller de Programacion Competitiva
 
 ---
 
@@ -17,9 +17,9 @@
 ---
 
 ### 3. Algoritmos de Ordenamiento y Busqueda
-- Estrategia de **Divide y venceras**
-- Implementación de **Merge Sort**
-- **Busqueda Binaria**
+- Estrategia de Divide y venceras
+- Implementación de Merge Sort
+- Busqueda Binaria
 
 ---
 
@@ -28,8 +28,8 @@
   - Matriz de adyacencia
   - Lista de adyacencia
 - Algoritmos de busqueda:
-  - **DFS (Depth-First Search)**
-  - **BFS (Breadth-First Search)**
+  - DFS (Depth-First Search)
+  - BFS (Breadth-First Search)
 
 ---
 
@@ -42,7 +42,7 @@
 
 ### 6. Estructuras de Datos Avanzadas
 - Sparse Table:
-  - **Consultas de rango (RMQ) en tiempo constante**
+  - Consultas de rango (RMQ) en tiempo constante
 
 ---
 
