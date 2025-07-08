@@ -1,4 +1,4 @@
-# Taller de Programacion Competitiva
+## Taller de Programacion Competitiva
 
 ---
 
@@ -42,7 +42,7 @@
 
 ### 6. Estructuras de Datos Avanzadas
 - Sparse Table:
-- Consultas de rango (RMQ) en tiempo constante
+  - **Consultas de rango (RMQ) en tiempo constante**
 
 ---
 
@@ -51,5 +51,3 @@
 - Exponenciacion binaria
 - Aritmetica modular
 - Factorizacion en primos
-  
----
