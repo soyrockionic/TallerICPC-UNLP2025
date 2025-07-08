@@ -3,33 +3,30 @@
 ---
 
 ### 1. Introduccion a C++ y Programacion Competitiva
-- Fundamentos del lenguaje C++
-- Entrada/salida rápida
+- Introduccion al lenguaje C++
 - Estructura tipica de un programa competitivo
 
 ---
 
 ### 2. Estructuras de Datos Basicas
-- `vector`, `string`
-- `set`, `map`
-- `queue`, `priority_queue`
+- vector, string
+- set, map
+- queue, priority_queue
 
 ---
 
 ### 3. Algoritmos de Ordenamiento y Busqueda
 - Estrategia de Divide y venceras
-- Implementación de Merge Sort
+- Merge Sort
 - Busqueda Binaria
 
 ---
 
 ### 4. Teoria de Grafos
 - Modelado de grafos:
-  - Matriz de adyacencia
-  - Lista de adyacencia
+  - Matriz de adyacencia, Lista de adyacencia
 - Algoritmos de busqueda:
-  - DFS (Depth-First Search)
-  - BFS (Breadth-First Search)
+  - DFS (Depth-First Search), BFS (Breadth-First Search)
 
 ---
 
