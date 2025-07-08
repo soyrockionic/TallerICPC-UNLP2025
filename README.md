@@ -11,7 +11,7 @@
 ### 2. Estructuras de Datos Basicas
 - vector, string
 - set, map
-- queue, priority_queue
+- queue, priority-queue
 
 ---
 
