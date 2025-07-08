@@ -6,7 +6,7 @@
 
  3. Algoritmos de sorting : Divide y conquistaras, Merge Sort, Busqueda Binaria
 
- 4. Teoria de Grafos : Modelos de grafos -> Matriz de adyacencia, Lista de adyacencia
+ 4. Teoria de Grafos : Modelos de grafos -> Matriz de adyacencia, Lista de adyacencia;
     Algoritmos de busqueda -> DFS (Depth-First Search), BFS (Breadth-First Search)
 
  5. Programacion Dinamica (DP) : Knapsack problem, LCS (Longest Common Subsequence),
