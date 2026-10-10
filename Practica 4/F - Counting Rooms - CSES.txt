@@ -1,4 +1,4 @@
-Problem E - Cyclic Components
+Problem F - Counting Rooms - CSES
 
 Se te proporciona un plano de un edificio y tu tarea es contar el numero de habitaciones.
 El plano mide n×m cuadrados, y cada cuadrado representa el suelo o la pared. Puedes recorrer
